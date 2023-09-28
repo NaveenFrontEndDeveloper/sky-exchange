@@ -268,6 +268,7 @@ footer {
 }
 .game-box {
   position: relative;
+  cursor: pointer;
 }
 .entrance-title {
   position: absolute;
@@ -492,6 +493,142 @@ footer {
   border-radius: 8px;
 }
 /* login modal */
+.login_to_go {
+  background-image: linear-gradient(180deg, #ffb600 1%, #ffb600 100%);
+}
+
+.login_to_go {
+  /* top: 18%;
+  width: 540px; */
+  height: 408px;
+  position: absolute;
+  left: 50%;
+  width: 540px;
+  margin-left: -270px;
+}
+.dialog-wrap-w {
+  background-color: #fff;
+  color: #1e1e1e;
+}
+.dialog-wrap, .dialog-wrap-w {
+  /* top: 340px; */
+  background-color: rgba(0,0,0,.85);
+  border-radius: 8px;
+  color: #fff;
+  position: relative;
+  /* z-index: 20;
+  position: absolute;
+  left: 50%;
+  width: 320px;
+  margin-left: -160px; */
+}
+.kv {
+  position: relative;
+  width: 250px;
+  height: 100%;
+  background: #737373 url(../assets/bg-login_wrap.png) no-repeat;
+  border-radius: 8px 0 0 8px;
+}
+.kv::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  max-width: 210px;
+  max-height: 210px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.login_to_go .kv:before {
+  background-image: none;
+}
+.login_to_go .kv:before {
+  background-image: url(assets/logo.png);
+  top: 75%;
+}
+
+.login-panel {
+  color: #243a48;
+  position: absolute;
+  right: 4%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.login_to_go dt {
+  color: #000;
+}
+.login-panel dt {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.login-panel dd {
+  position: relative;
+  width: 220px;
+  margin-bottom: 7px;
+}
+.login-panel input, .login-panel textarea {
+  width: 100%;
+  height: 33px;
+  font-size: 14px;
+  line-height: 21px;
+  border: 1px solid #aaa;
+  box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,.1);
+  margin: 0;
+}
+.login-panel .valid-code img {
+  position: absolute;
+  width: 70px;
+  height: 19px;
+  right: 5px;
+  top: 7px;
+}
+.btn-close{
+  position: absolute;
+  top: 2%;
+    right: 2%;
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em 0.25em;
+    color: white;
+    font-weight: 500;
+    background: none;
+    border: 0;
+    border-radius: 0.25rem;
+    opacity: .5;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-close:hover{
+  color: #fff;
+}
+
+.btn-send {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  font-size: 15px;
+  color: #ffb600 !important;
+  border-color: #222;
+  background-image: linear-gradient(180deg, #474747 0%, #070707 100%);
+}
+
+
+
 
 /* media queries */
 @media (min-width: 320px) and (max-width: 767px) {
