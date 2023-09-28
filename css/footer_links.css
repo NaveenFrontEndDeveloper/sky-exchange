@@ -1,0 +1,30 @@
+.announce-header {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+}
+.announce-header h1 {
+    color: #000;
+    font-size: 20px;
+    line-height: 56px;
+}
+.announce-header h1:before {
+    position: relative;
+    top: 4px;
+    width: 6px;
+    height: 24px;
+    margin-right: 8px;
+    content: "";
+    background: #ffb80c;
+    border-radius: 100px;
+}
+.announce-header h1:before {
+    position: relative;
+    top: 4px;
+    width: 6px;
+    height: 24px;
+    margin-right: 8px;
+    content: "";
+    background: #ffbd14;
+    border-radius: 100px;
+}
